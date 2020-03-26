@@ -14,6 +14,7 @@ SET(EXAMPLE_DIRS
 if (${OpenIGTLink_PROTOCOL_VERSION} GREATER 1)
   SET(EXAMPLE_DIRS
     ${EXAMPLE_DIRS}
+    Lab_PWP
     ImageMeta
     Point
     TrackingData
